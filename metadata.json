@@ -1,0 +1,6 @@
+{
+  "name": "HDX Cloud Claim System",
+  "description": "Secure free hosting claim system with admin verification and anti-abuse protection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
