@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-blue: #0ea5e9;
+  --color-brand-purple: #a855f7;
+  --color-dark-bg: #030712;
+  --color-card-bg: rgba(17, 24, 39, 0.7);
+}
+
+/* Glassmorphism utility */
+.glass-effect {
+  background: rgba(17, 24, 39, 0.45);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-glow-blue {
+  box-shadow: 0 0 25px -5px rgba(14, 165, 233, 0.15);
+}
+
+.glass-glow-purple {
+  box-shadow: 0 0 25px -5px rgba(168, 85, 247, 0.15);
+}
+
